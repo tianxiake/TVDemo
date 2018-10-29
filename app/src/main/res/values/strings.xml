@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">TVDemo</string>
+
+    <string-array name="list_content">
+        <item>RxJavaTest</item>
+        <item>ThirdActivity</item>
+        <item>EventBusMainActivity</item>
+        <item>EventBusSecondActivity</item>
+        <item>TestActivity</item>
+        <item>Test2Activity</item>
+        <item>ForthActivity</item>
+    </string-array>
+
+    <string-array name="list_activity">
+        <item>com.example.yongjie.tvdemo.activity.RxJavaTestActivity</item>
+        <item>com.example.yongjie.tvdemo.activity.ThirdActivity</item>
+        <item>com.example.yongjie.tvdemo.activity.EventBusTestMainActivity</item>
+        <item>com.example.yongjie.tvdemo.activity.EventBusTestSecondActivity</item>
+        <item>com.example.yongjie.tvdemo.activity.TestActivity</item>
+        <item>com.example.yongjie.tvdemo.activity.Test2Activity</item>
+        <item>com.example.yongjie.tvdemo.activity.ForthActivity</item>
+    </string-array>
+</resources>

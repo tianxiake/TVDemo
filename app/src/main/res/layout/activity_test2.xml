@@ -1,0 +1,33 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/tv_title"
+        android:layout_width="80dp"
+        android:layout_height="40dp"
+        android:background="#00FF00"
+        android:gravity="center"
+        android:text="HelloWorld" />
+
+    <TextView
+        android:id="@+id/tv_title_2"
+        android:layout_width="80dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="10dp"
+        android:layout_toRightOf="@id/tv_title"
+        android:background="#00FF00"
+        android:gravity="center"
+        android:text="HelloWorld" />
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/rv_content"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_below="@id/tv_title"
+        android:background="#aaaaaa">
+
+    </android.support.v7.widget.RecyclerView>
+
+
+</RelativeLayout>
